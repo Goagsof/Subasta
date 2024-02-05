@@ -60,8 +60,7 @@ footer {
 }
 
 
-/* start search*/
-.search-bar {
+z.search-bar {
     margin-bottom: 10px;
 }
 
@@ -198,7 +197,6 @@ footer {
     margin: 5px;
 }
 
-
 /* end footer*/
 
 
@@ -237,45 +235,31 @@ footer {
     justify-content: center;
     align-items: center;
     height: 300px;
-    /* Altura del carrusel */
     position: relative;
-    /* Posición relativa para las imágenes */
     overflow: hidden;
-    /* Oculta las partes de las imágenes que se desbordan */
 }
 
 .carousel img {
     position: absolute;
-    /* Posición absoluta para superponer las imágenes */
     top: 50%;
-    /* Posiciona las imágenes en el centro verticalmente */
     left: 50%;
-    /* Posiciona las imágenes en el centro horizontalmente */
     transform: translate(-50%, -50%);
-    /* Centra las imágenes */
     opacity: 0;
-    /* Inicialmente oculta todas las imágenes */
     width: 300px;
-    /* Ancho deseado de la imagen */
     height: auto;
-    /* La altura se ajustará automáticamente para mantener la proporción */
     animation: fadeInOut 9s infinite;
-    /* Duración y repetición de la animación */
 }
 
 .carousel img:nth-child(1) {
     animation-delay: 0s;
-    /* Retraso para la primera imagen */
 }
 
 .carousel img:nth-child(2) {
     animation-delay: 3s;
-    /* Retraso para la segunda imagen */
 }
 
 .carousel img:nth-child(3) {
     animation-delay: 6s;
-    /* Retraso para la tercera imagen */
 }
 
 
