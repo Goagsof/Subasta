@@ -204,7 +204,7 @@ z.search-bar {
 .main-content {
     width: 80%, ;
     text-align: center;
-    background: linear-gradient(to right, rgb(134, 243, 134), rgb(238, 179, 156));
+    background: linear-gradient(to right, rgb(134, 134, 243), rgb(238, 156, 238));
     border-radius: 20px;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
     margin-bottom: 20px;
